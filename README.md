@@ -1,5 +1,5 @@
 # movie_recommender
-Building a personal movie recommender using Django
+Building a personal movie recommender using Django. [Mainly focused on Back-End Web Development. CSS not used at its fullest. Central usage of CSS is done in generating Bootstrap Cards to display movies on it.]
 
 Choosing an interesting movie to watch on a weekend is always hard. It would be great if there would be a handy movie recommender to help make a good decision. Here, we shall build such a Movie Recommender using Django web framework. The movie recommendation shall be bassed on the movies previously watched by the user. 
 
