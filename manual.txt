@@ -1,0 +1,8 @@
+To execute the website:
+/admin: Admin page on the Django Server. Use user_id and Password to login.
+/movierecommender: The actual webpage containing the movie recommendations.
+
+Once a movie has been watched, go to the admin webpage to set its watched=True. Then, run the command:
+python manage.py make_recommendations
+from the Terminal. This runs the Jaccard Algorithm on the remaining unwatched movies, from the IMDB database.
+Then, open the webpage again to get the new recommendations based on the watched history.
